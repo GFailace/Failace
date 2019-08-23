@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;    
+    width: 100%;
+    height: 100%;
+    background-color: #24292e;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.container{
+    width: 80%;
+}
+main{
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 200;
+}
+main a{
+    cursor: pointer;
+    color: #e23237;
+}
+main a i{
+    cursor: pointer;
+    color: #24292e
+}
+main .perfil{
+    margin: 10px auto;
+    padding: 10px 25%;
+    width: 100%;
+    height: 400px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+main .perfil img{
+border-radius: 50%;
+}
+.nome{
+    padding-top: 10px;
+    text-align: center;
+}
+main .desc{
+    margin: 5px auto;
+    padding: 10px;
+}
+.tecnologias{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 10px;
+    font-weight: 200;
+}
+hr{
+    width: 80%;
+}
+.projetos{
+    margin: 40px auto;
+}
+footer{
+    height: 100%;
+    text-align: center;
+}
+.card{
+    margin: 10px auto;
+}
+
+/* Media Queries */
+@media(max-width:1199px){
+    .tecnologias{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+        align-items: center;
+        grid-gap: 10px;
+    }
+    .desc{
+        margin-top: 40px;
+    }
+    .nome{
+        text-align: center;
+    }
+}
+
+@media(max-width:772px){
+    .tecnologias{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+        align-items: center;
+        grid-gap: 10px;
+    }
+    .desc{
+        margin-top: 40px;
+    }
+    .nome{
+        text-align: center;
+    }
+}
+@media(max-width:499px){
+    .tecnologias{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
+        grid-gap: 10px;
+    }
+    .desc{
+        margin-top: 140px;
+    }
+    .nome{
+        text-align: center;
+    }
+}
