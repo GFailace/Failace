@@ -90,6 +90,15 @@ footer{
 }
 .card-text{
     color: #757575;
+
+}
+.btn{
+    background: #03a87c;
+    color: #FFF;
+}
+.btn:hover{
+    background: #015942;
+    color: #FFF;
 }
 
 /* Media Queries */
