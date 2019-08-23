@@ -5,8 +5,9 @@ body{
     box-sizing: border-box;    
     width: 100%;
     height: 100%;
-    background-color: #24292e;
     font-size: 16px;
+    background: #FDFDFD;
+    color: #757575;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
     -webkit-font-smoothing: antialiased !important;
@@ -14,20 +15,31 @@ body{
 
 .container{
     width: 80%;
+    
 }
 main{
     height: 100%;
     text-align: center;
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 300;
 }
 main a{
     cursor: pointer;
-    color: #e23237;
+    color: #03a87c;
+    transition: ease 0.2s;
+}
+main a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #015942;
+}
+main p{
+    padding: 0 10px;
+    color: #757575;
 }
 main a i{
     cursor: pointer;
-    color: #24292e
+    color: #757575;
 }
 main .perfil{
     margin: 10px auto;
@@ -37,6 +49,7 @@ main .perfil{
     justify-items: center;
     align-items: center;
     text-align: center;
+    color: #757575;
 }
 main .perfil img{
 border-radius: 50%;
@@ -44,6 +57,7 @@ border-radius: 50%;
 .nome{
     padding-top: 10px;
     text-align: center;
+    color: #757575;
 }
 main .desc{
     margin: 5px auto;
@@ -63,12 +77,19 @@ hr{
 .projetos{
     margin: 40px auto;
 }
+.projetos p{
+    color: #757575;
+}
 footer{
     height: 100%;
     text-align: center;
 }
 .card{
     margin: 10px auto;
+    color: #757575;
+}
+.card-text{
+    color: #757575;
 }
 
 /* Media Queries */
